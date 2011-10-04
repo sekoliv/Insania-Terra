@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:weightSum="1">
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView2" android:layout_width="fill_parent" android:text="@string/profile" android:gravity="center"></TextView>
+	<TextView 
+		android:id="@+id/textView1" 
+		android:layout_width="wrap_content" 
+		android:text="TextView" 
+		android:layout_height="0dp">
+	</TextView>
+	<LinearLayout 
+		android:id="@+id/linearLayout1" 
+		android:weightSum="1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="54dp">
+		<ImageView 
+			android:src="@drawable/icon" 
+			android:id="@+id/imageView1" 
+			android:layout_width="67dp" 
+			android:layout_height="fill_parent">
+		</ImageView>
+		<TextView 
+			android:text="TextView" 
+			android:layout_height="fill_parent" 
+			android:gravity="center|left" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/nameText">
+		</TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent">
+		<TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView3" android:text="@string/hp" android:layout_width="95dp"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/minMaxHPText" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="@string/blankString"></TextView>
+	</LinearLayout>
+	<ProgressBar 
+		android:layout_height="wrap_content" 
+		style="?android:attr/progressBarStyleHorizontal" 
+		android:id="@+id/hpBar" 
+		android:layout_width="287dp">
+	</ProgressBar>
+	<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="fill_parent">
+		<TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView4" android:text="@string/mp" android:layout_width="94dp"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/minMaxMPText" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="@string/blankString"></TextView>
+	</LinearLayout>
+	<ProgressBar 
+		android:layout_height="wrap_content" 
+		style="?android:attr/progressBarStyleHorizontal" 
+		android:layout_width="286dp" 
+		android:id="@+id/mpBar">
+	</ProgressBar>
+	<TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_weight="0.53">
+		<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/textView5" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/textView6" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/textView7" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/textView8" android:text="TextView" android:layout_width="wrap_content"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/textView9" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/textView10" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/textView11" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/textView12" android:text="TextView" android:layout_width="wrap_content"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/textView13" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/textView14" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/textView15" android:text="TextView" android:layout_width="wrap_content"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/textView16" android:text="TextView" android:layout_width="wrap_content"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+	</TableLayout>
+	
+	<Button android:layout_height="wrap_content" android:id="@+id/button1" android:onClick="viewMainMenu" android:layout_width="168dp" android:text="@string/goBack"></Button>
+</LinearLayout>

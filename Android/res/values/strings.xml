@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter">Enter</string>
+    <string name="quit">Quit</string>
+    <string name="goBack">Go Back</string>
+    <string name="viewProfile">View Profile</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="profile">Profile</string>
+    <string name="menu">Menu</string>
+    <string name="hp">HP</string>
+    <string name="mp">MP</string>
+    <string name="fight">Fight</string>
+    <string name="heal">Heal</string>
+    <string name="save">Save</string>
+    <string name="blankString"></string>
+</resources>
